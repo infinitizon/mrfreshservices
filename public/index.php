@@ -10,31 +10,31 @@
     </head>
     <body>
         <div class="navbar-wrapper">
-      <div class="container">
+            <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="60" height="36" style="padding-bottom: 10px;" alt=""/></a>
-              
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+                <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="60" height="36" style="padding-bottom: 10px;" alt=""/></a>
 
-      </div>
-    </div>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                              <li class="active"><a href="#">Home</a></li>
+                              <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
 
 
     <!-- Carousel
@@ -87,7 +87,9 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-
+    <div  style="background-color:#E4782C;color:#fff; margin-bottom: 60px;">
+        <div class="container"><h3>Let us do the "dirty" work for you...</h1></div>
+    </div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -96,38 +98,50 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div class="row" style="line-height:28px;">
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <h2>The Professional Cleaning Difference</h2>
+          <p>Mr Fresh Services understands your environment is your sanctuary. It's a place you feel safe, secure, and more importantly, you can be yourself there...</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Next-day availability</h2>
+          <p>Book online in with us now and schedule your home service for as early as tomorrow.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Jobs/Careers</h2>
+          <p>Consider how bright the future could be for you at Mr Fresh Services! A cleaning careers with Mr Fresh Services allow you to hold your head high</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
     </div><!-- /.container -->
-
+    <div class="well" style="padding:30px; line-height:30px;">
+        <div class="container text-center">
+            <h3>Mr Fresh's general cleaning services</h3>
+            <p>Mr Fresh cleaning services is a leading provider of cleaning services. For the cleaning service Nigeria relies on, book online and one of our experienced, background-checked professionals will have your home clean in no time.</p>
+            <ul>
+                <li>Trusted professionals</li>
+                <li>Affordable pricing (includes tax & tip)</li>
+                <li>Next day availability</li>
+                <li>Friendly 24/7 customer service</li>
+                <li>On time & fully equipped</li>
+                <li>Money-back guarantee</li>
+            </ul>
+        </div>
+    </div>
+      <!-- FOOTER -->
+      <div id="footer">
+        <footer class="container">
+            <hr>
+            <p class="pull-right">&copy; 2016 infinitizon. All rights reserved</p>
+            <p>Privacy</p>
+        </footer>
+      </div>
         <script src="assets/js/ie-emulation-modes-warning.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

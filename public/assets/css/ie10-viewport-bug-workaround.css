@@ -13,3 +13,8 @@
 @-ms-viewport     { width: device-width; }
 @-o-viewport      { width: device-width; }
 @viewport         { width: device-width; }
+
+
+#footer{
+    background:#000; color:#999; min-height:200px;
+}
