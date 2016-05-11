@@ -1,0 +1,44 @@
+ body {
+    font: 2em 'Alegreya Sans', Helvetica, sans-serif;
+    color: #5a5a5a; line-height: 20px;
+}
+.whyWe img.img-circle{
+    border:1px solid #CCC;
+    width:140px; height: 140px;
+}
+.service li:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size:15px;
+    position: relative;
+    margin-right: 10px;
+    top: 3px;
+    color: #ccc;
+}
+#footer{
+    background:#000; color:#999; min-height:200px;
+}
+blockquote {
+    border: none;
+    margin: 3em 10px;
+    quotes: "\201C" "\201D";
+}
+blockquote footer{color: #000;}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.comment{ margin:0; padding:0; }
+/* hide all items initially */
+.comment li{ display:none; }
+/* show the item that has the 'show' class */
+.comment li.active{ display:block; }
+.contact-us{
+    display: block;
+    min-width: 100%;
+    height: 300px;
+}
