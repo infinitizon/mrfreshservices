@@ -42,3 +42,6 @@ blockquote:before {
     min-width: 100%;
     height: 300px;
 }
+footer.container{
+    font-size:small;
+}

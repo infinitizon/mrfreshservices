@@ -21,5 +21,7 @@
         <script src="assets/js/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
         <script src="assets/js/general.js" type="text/javascript"></script>
         <script src="assets/js/css3-animate-it.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.validationEngine-en.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.validationEngine.js" type="text/javascript"></script>
     </body>
 </html>

@@ -12,6 +12,7 @@
         <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
         <link href="assets/css/general.css" rel="stylesheet" type="text/css"/>
         <link href="assets/css/animations.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/validationEngine.jquery.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="navbar-wrapper">

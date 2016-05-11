@@ -1,32 +1,34 @@
 <?php
-
+if(isset($_POST) && @$_POST["submit"]=="Submit"){
+    
+}
 include_once 'assets/common/header.inc.php';
 ?>
 <img src="assets/img/contact.jpg" class="img-responsive contact-us" alt=""/>
 <div class="well" style="margin-bottom: 0px;">
     <div class="container">
-        <form method="post" action="" role="form">
+        <form method="post" action="" id="contact-form" name="contact-form" role="form">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your Name" required>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name" required>
               </div>
               <div class="form-group">
                 <label for="telephone">Telephone:</label>
-                <input type="number" class="form-control" id="telephone" placeholder="07060000001 - (No dashes, spaces, etc. Only digits)" required>
+                <input type="number" class="form-control validate[maxSize[12]]" id="telephone" name="telephone" placeholder="07060000001 - (No dashes, spaces, etc. Only digits)" required>
               </div>
               <div class="form-group">
                 <label for="email">Email address:</label>
-                <input type="email" class="form-control" id="email" placeholder="email@address.com">
+                <input type="text" class="form-control validate[custom[email]]" id="email" name="email" placeholder="someone@nowhere.com">
               </div>
               <div class="form-group">
                 <label for="subject">Subject:</label>
-                <input type="text" class="form-control" id="subject" placeholder="Enter a subject" required>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter a subject" required>
               </div>
                <div class="form-group">
                 <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
         </form>
     </div>
 </div>

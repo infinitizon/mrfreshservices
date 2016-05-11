@@ -19,4 +19,5 @@ $(document).ready(function() {
    }
    // call the text loop method when the page loads
    textloop();
+   $("#contact-form").validationEngine();
 });
